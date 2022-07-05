@@ -1,13 +1,13 @@
-import html5 from '../assets/images/html5.png';
-import css3 from '../assets/images/css3.png';
-import cloudinary from '../assets/images/cloudinary.png';
-import express from '../assets/images/express.png';
-import javascript from '../assets/images/javascript.png';
-import mongodb from '../assets/images/mongodb.png';
-import mongoose from '../assets/images/mongoose.png';
-import nodejs from '../assets/images/nodejs.png';
-import passportjs from '../assets/images/passportjs.png';
-import react from '../assets/images/react.png';
+import html5 from '../assets/icons/html5.png';
+import css3 from '../assets/icons/css3.png';
+import cloudinary from '../assets/icons/cloudinary.png';
+import express from '../assets/icons/express.png';
+import javascript from '../assets/icons/javascript.png';
+import mongodb from '../assets/icons/mongodb.png';
+import mongoose from '../assets/icons/mongoose.png';
+import nodejs from '../assets/icons/nodejs.png';
+import passportjs from '../assets/icons/passportjs.png';
+import react from '../assets/icons/react.png';
 
 interface SkillInterface {
   name: string;
