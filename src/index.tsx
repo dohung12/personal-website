@@ -4,13 +4,16 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import '@picocss/pico';
 import './assets/custom-colors.css';
+import { ThemeProvider } from './context/themeContext';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <App />
+    <ThemeProvider>
+      <App />
+    </ThemeProvider>
   </React.StrictMode>
 );
 
