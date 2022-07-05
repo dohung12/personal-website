@@ -8,6 +8,7 @@ const Wrapper = styled.article`
   .skills-container {
     display: flex;
     gap: 1rem;
+    flex-wrap: wrap;
   }
 
   .skill {
