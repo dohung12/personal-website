@@ -1,4 +1,4 @@
-import { useThemeContext } from './context/themeContext';
+import styled from 'styled-components';
 import {
   Navbar,
   AboutBlock,
@@ -7,16 +7,23 @@ import {
   SkillsBlock,
 } from './components/index';
 
+const Wrapper = styled.main`
+  .content {
+    margin: 3rem;
+  }
+`;
+
 function App() {
-  const { theme } = useThemeContext();
   return (
-    <main>
+    <Wrapper>
       <Navbar />
-      <AboutBlock />
-      <SkillsBlock />
-      <Projects />
-      <Contact />
-    </main>
+      <div className='content'>
+        <AboutBlock />
+        <SkillsBlock />
+        <Projects />
+        <Contact />
+      </div>
+    </Wrapper>
   );
 }
 
