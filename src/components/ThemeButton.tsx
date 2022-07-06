@@ -1,4 +1,6 @@
+import { FaMoon, FaSun } from 'react-icons/fa';
 import { useThemeContext } from '../context/themeContext';
+
 const ThemeButton = () => {
   const { theme, setTheme } = useThemeContext();
 
@@ -20,7 +22,7 @@ const ThemeButton = () => {
         role='switch'
         onClick={handleClick}
       />
-      Switch Theme
+      {theme === 'light' ? <FaMoon /> : <FaSun />}
     </label>
   );
 };
