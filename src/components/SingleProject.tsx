@@ -22,7 +22,7 @@ const Wrapper = styled.div`
     img {
       border-top-left-radius: var(--border-radius);
       border-top-right-radius: var(--border-radius);
-      border-bottom: 3px solid var(--muted-color);
+      border-bottom: 3px solid var(--contrast);
     }
 
     .project-icon {
@@ -31,14 +31,14 @@ const Wrapper = styled.div`
       bottom: 0;
       left: 50%;
       transform: translate(-50%, 50%);
-      background: var(--contrast);
+      background: var(--primary);
       width: 4rem;
       height: 4rem;
       display: grid;
       place-items: center;
       border-radius: 50%;
       color: #fff;
-      border: 0.375rem solid var(--muted-color);
+      border: 0.375rem solid var(--contrast);
     }
   }
 
