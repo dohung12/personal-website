@@ -4,6 +4,7 @@ import zalo from '../assets/icons/zalo.png';
 
 const Wrapper = styled.article`
   text-align: center;
+
   .btn-container {
     display: flex;
     gap: 1rem;
@@ -27,10 +28,19 @@ const Contact = () => {
       </hgroup>
       <h6>Reach me through</h6>
       <div className='btn-container'>
-        <a href='#github'>
+        <a
+          href='https://github.com/dohung12'
+          target={'_blank'}
+          rel='noreferrer'
+        >
           <FaGithub />
         </a>
-        <a href='#zalo'>
+        <a
+          href='https://zalo.me/0906830600'
+          target={'_blank'}
+          rel='noreferrer'
+          data-tooltip='Zalo'
+        >
           <img src={zalo} alt='zalo' />
         </a>
       </div>
