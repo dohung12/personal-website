@@ -7,6 +7,7 @@ const Wrapper = styled.article`
 
   .skills-container {
     display: flex;
+    justify-content: center;
     gap: 1rem;
     flex-wrap: wrap;
   }
