@@ -1,15 +1,25 @@
-import React from 'react';
+import styled from 'styled-components';
+import { projects } from '../utils/projects';
+import SingleProject from './SingleProject';
+
+const Wrapper = styled.div`
+  .projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 3rem 1rem;
+  }
+`;
 
 const Projects = () => {
   return (
-    <div id='projects'>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum qui,
-      cupiditate dignissimos, impedit ab rerum est dolor voluptate veniam
-      exercitationem ipsum expedita, nulla eum reprehenderit magni inventore.
-      Illum eligendi laborum quia omnis voluptatem quam quisquam reiciendis
-      optio dolorum ex cumque facilis, debitis est! Suscipit adipisci debitis
-      dicta dolorem, assumenda recusandae!
-    </div>
+    <Wrapper>
+      <h2>Featured Projects</h2>
+      <div className='projects-container'>
+        {projects.map((project) => {
+          return <SingleProject {...project} />;
+        })}
+      </div>
+    </Wrapper>
   );
 };
 
