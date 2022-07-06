@@ -11,7 +11,7 @@ const Wrapper = styled.div`
   box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
 
   :hover {
-    box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+    box-shadow: 0 5px 15px var(--primary);
     transform: scale(1.02);
     transition: var(--transition);
   }

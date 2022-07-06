@@ -10,6 +10,7 @@ import {
 const Wrapper = styled.main`
   .content {
     margin: 3rem;
+    margin-top: calc(3rem + var(--nav-height));
   }
 `;
 

@@ -5,6 +5,14 @@ import styled from 'styled-components';
 const Wrapper = styled.nav`
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   padding-right: 1rem;
+  height: var(--nav-height);
+  background-color: var(--background-color);
+  z-index: 1000;
+
+  position: fixed;
+  top: 0;
+  width: 100%;
+
   .logo {
     height: 4rem;
     padding: 0;
