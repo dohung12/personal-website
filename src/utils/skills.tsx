@@ -8,6 +8,7 @@ import mongoose from '../assets/icons/mongoose.png';
 import nodejs from '../assets/icons/nodejs.png';
 import passportjs from '../assets/icons/passportjs.png';
 import react from '../assets/icons/react.png';
+import typescript from '../assets/icons/typescript.png';
 
 interface SkillInterface {
   name: string;
@@ -30,6 +31,10 @@ const frontEndSkills: SkillInterface[] = [
   {
     name: 'React',
     icon: react,
+  },
+  {
+    name: 'Typescript',
+    icon: typescript,
   },
 ];
 
