@@ -2,7 +2,7 @@ import { useState } from 'react';
 import styled from 'styled-components';
 
 const Wrapper = styled.section`
-  .main {
+  .main-image {
     height: 600px;
     border: 2px solid var(--primary);
   }
@@ -27,7 +27,7 @@ const Wrapper = styled.section`
     border: 2px solid var(--primary);
   }
   @media (max-width: 576px) {
-    .main {
+    .main-image {
       height: 300px;
     }
     .gallery {
@@ -37,7 +37,7 @@ const Wrapper = styled.section`
     }
   }
   @media (min-width: 992px) {
-    .main {
+    .main-image {
       height: 500px;
     }
     .gallery {
@@ -56,7 +56,7 @@ const ImageCarousel = ({ images }: Props) => {
   const [main, setMain] = useState(images[0]);
   return (
     <Wrapper>
-      <img src={main} alt='' className='main ' />
+      <img src={main} alt='' className='main-image ' />
       <div className='gallery'>
         {images.map((image, index) => {
           return (
