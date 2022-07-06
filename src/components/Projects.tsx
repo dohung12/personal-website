@@ -12,11 +12,11 @@ const Wrapper = styled.div`
 
 const Projects = () => {
   return (
-    <Wrapper>
+    <Wrapper id='projects'>
       <h2>Featured Projects</h2>
       <div className='projects-container'>
         {projects.map((project) => {
-          return <SingleProject {...project} />;
+          return <SingleProject key={project.name} {...project} />;
         })}
       </div>
     </Wrapper>
