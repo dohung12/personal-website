@@ -1,14 +1,40 @@
-import React from 'react';
+import { FaGithub } from 'react-icons/fa';
+import styled from 'styled-components';
+import zalo from '../assets/icons/zalo.png';
+
+const Wrapper = styled.article`
+  text-align: center;
+  .btn-container {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: center;
+    svg,
+    img {
+      height: 3rem;
+      width: 3rem;
+    }
+  }
+`;
 
 const Contact = () => {
   return (
-    <div id='contact'>
-      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil quis harum
-      voluptas quisquam commodi maiores repellat doloribus unde, error totam,
-      itaque hic fugiat, debitis soluta aut accusantium? Sed eos minima, dolores
-      cupiditate voluptatem hic, magnam assumenda quo numquam commodi doloremque
-      eaque laborum, minus optio atque corrupti libero. Officia, unde? Ut!
-    </div>
+    <Wrapper id='contact'>
+      <hgroup>
+        <h2>Contact</h2>
+        <h6>Send me an email at</h6>
+        <h3>dohuyhung12@gmail.com</h3>
+      </hgroup>
+      <h6>Reach me through</h6>
+      <div className='btn-container'>
+        <a href='#github'>
+          <FaGithub />
+        </a>
+        <a href='#zalo'>
+          <img src={zalo} alt='zalo' />
+        </a>
+      </div>
+    </Wrapper>
   );
 };
 
