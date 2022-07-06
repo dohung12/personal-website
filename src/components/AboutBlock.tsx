@@ -3,12 +3,21 @@ import main from '../assets/main.svg';
 
 const Wrapper = styled.section`
   height: calc(100vh - var(--nav-height));
+  img {
+    display: none;
+
+    @media (min-width: 600px) {
+      display: block;
+    }
+  }
 
   .content {
     text-align: center;
+    align-self: center;
+    margin: 0 2rem;
 
     h6 {
-      text-align: start;
+      text-align: justify;
     }
   }
 `;

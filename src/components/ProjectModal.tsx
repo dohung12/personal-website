@@ -8,18 +8,23 @@ const Wrapper = styled.dialog`
   article {
     width: 90%;
     max-width: unset;
+    height: max-content;
   }
 
   .project-container {
     display: grid;
-    grid-template-columns: 3fr 1fr;
     gap: 1rem;
+
+    @media (min-width: 600px) {
+      grid-template-columns: 3fr 1fr;
+    }
   }
 
   .btn-container {
     display: flex;
     gap: 1rem;
     justify-content: flex-end;
+    margin-bottom: 0.5rem;
     svg {
       width: 2rem;
       height: 2rem;
@@ -55,13 +60,15 @@ const ProjectModal = ({
         <div className='project-container'>
           <ImageCarousel images={images} />
           <div>
-            <h3>{name}</h3>
-            <p>
-              <strong>Description: </strong>
-              {desc}
-            </p>
-            <strong> Stacks:</strong>
-            <StacksContainer stacks={stack} />
+            <hgroup>
+              <h3>{name}</h3>
+              <p>
+                <strong>Description: </strong>
+                {desc}
+              </p>
+              <strong> Stacks:</strong>
+              <StacksContainer stacks={stack} />
+            </hgroup>
             <div className='btn-container'>
               <a href={viewCode} role='button' className='contrast outline'>
                 <FaGithub />
