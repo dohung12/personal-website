@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="623" height="220" viewBox="0 0 1246 440" xml:space="preserve">
+<desc>Created with Fabric.js 3.6.3</desc>
+<defs>
+</defs>
+<g transform="matrix(1.56 0 0 1.56 607.57 221.61)"  >
+<g style=""   >
+		<g transform="matrix(1 0 0 1 0 0)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-opacity: 0; fill-rule: nonzero; opacity: 1;"  x="-500" y="-300" rx="0" ry="0" width="1000" height="600" />
+</g>
+		<g transform="matrix(0.79 0 0 0.79 -243.33 -0.64)"  >
+<rect style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(84,110,122); fill-rule: nonzero; opacity: 1;"  x="-166.665" y="-166.665" rx="13.333" ry="13.333" width="333.33" height="333.33" />
+</g>
+		<g transform="matrix(0.79 0 0 0.79 -243.01 -0.29)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(255,255,255); fill-rule: nonzero; opacity: 1;"  transform=" translate(-324.13, -346.35)" d="m 244.41 421.35 v -150 h 36.012 q 17.56 0 26.339 9.4345 q 8.8095 9.4345 8.8095 27.649 v 75.833 q 0 18.214 -8.8095 27.649 q -8.7798 9.4345 -26.339 9.4345 h -36.012 z m 23.571 -21.429 h 11.994 q 5.8036 0 8.8988 -3.4226 q 3.125 -3.4226 3.125 -11.161 v -77.976 q 0 -7.7381 -3.125 -11.161 q -3.0952 -3.4226 -8.8988 -3.4226 h -11.994 v 107.14 z m 63.423 21.429 v -150 h 23.571 v 61.071 h 25.298 v -61.071 h 23.571 v 150 h -23.571 v -67.5 h -25.298 v 67.5 h -23.571 z" stroke-linecap="round" />
+</g>
+		<g transform="matrix(0.79 0 0 0.79 164.36 -0.29)"  >
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; fill: rgb(84,110,122); fill-rule: nonzero; opacity: 1;"  transform=" translate(-838.19, -346.35)" d="m 574.13 419.27 v -145.83 h 35.012 q 17.072 0 25.608 9.1725 q 8.5648 9.1725 8.5648 26.881 v 73.727 q 0 17.708 -8.5648 26.881 q -8.5359 9.1725 -25.608 9.1725 h -35.012 z m 22.917 -20.833 h 11.661 q 5.6424 0 8.6516 -3.3275 q 3.0382 -3.3275 3.0382 -10.851 v -75.81 q 0 -7.5231 -3.0382 -10.851 q -3.0093 -3.3275 -8.6516 -3.3275 h -11.661 v 104.17 z m 94.792 22.917 q -16.869 0 -25.839 -9.5775 q -8.941 -9.5775 -8.941 -27.083 v -76.678 q 0 -17.506 8.941 -27.083 q 8.9699 -9.5775 25.839 -9.5775 q 16.869 0 25.839 9.5775 t 8.9699 27.083 v 76.678 q 0 17.506 -8.9699 27.083 q -8.9699 9.5775 -25.839 9.5775 z m 0 -20.833 q 11.892 0 11.892 -14.381 v -79.572 q 0 -14.381 -11.892 -14.381 q -11.863 0 -11.863 14.381 v 79.572 q 0 14.381 11.863 14.381 z m 83.536 18.75 v -145.83 h 22.917 v 59.375 h 24.595 v -59.375 h 22.917 v 145.83 h -22.917 v -65.625 h -24.595 v 65.625 h -22.917 z m 120.83 2.0833 q -16.667 0 -25.405 -9.4907 q -8.7384 -9.4618 -8.7384 -27.17 v -111.26 h 22.917 v 112.91 q 0 7.5231 3.0093 10.851 q 3.0093 3.3275 8.6516 3.3275 q 5.6134 0 8.6516 -3.3275 q 3.0093 -3.3275 3.0093 -10.851 v -112.91 h 22.078 v 111.26 q 0 17.708 -8.7384 27.17 q -8.7674 9.4907 -25.434 9.4907 z m 50.434 -2.0833 v -145.83 h 28.733 l 22.309 87.297 h 0.40509 v -87.297 h 20.428 v 145.83 h -23.553 l -27.488 -106.45 h -0.43403 v 106.45 h -20.399 z m 121.44 2.0833 q -16.667 0 -25.405 -9.4907 q -8.7384 -9.4618 -8.7384 -27.17 v -76.678 q 0 -17.708 8.7384 -27.17 q 8.7384 -9.4907 25.405 -9.4907 q 16.667 0 25.434 9.4907 q 8.7384 9.4618 8.7384 27.17 v 12.5 h -21.672 v -13.947 q 0 -14.381 -11.863 -14.381 q -11.863 0 -11.863 14.381 v 79.774 q 0 14.178 11.863 14.178 q 11.863 0 11.863 -14.178 v -28.53 h -11.458 v -20.833 h 33.131 v 47.714 q 0 17.708 -8.7384 27.17 q -8.7674 9.4907 -25.434 9.4907 z" stroke-linecap="round" />
+</g>
+</g>
+</g>
+</svg>

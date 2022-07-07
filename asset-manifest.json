@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/personal-website/static/css/main.619857ba.css",
+    "main.js": "/personal-website/static/js/main.51a73bcd.js",
+    "static/js/787.5809834d.chunk.js": "/personal-website/static/js/787.5809834d.chunk.js",
+    "static/media/level-preview.png": "/personal-website/static/media/level-preview.4e17ebb70bda27f6d902.png",
+    "static/media/level2-preview.png": "/personal-website/static/media/level2-preview.53322b8970a6e5787397.png",
+    "static/media/dashboard.png": "/personal-website/static/media/dashboard.6f87e0d705ce63a3e849.png",
+    "static/media/searchPost.png": "/personal-website/static/media/searchPost.2b096374352c8595ec8a.png",
+    "static/media/searchPerson.png": "/personal-website/static/media/searchPerson.acb4d2e595ab19f540b0.png",
+    "static/media/post.png": "/personal-website/static/media/post.e49127be30ec3eb8bb5c.png",
+    "static/media/landing.png": "/personal-website/static/media/landing.29cff655ff20b3d1d2eb.png",
+    "static/media/monthly-report.png": "/personal-website/static/media/monthly-report.368decce55d71d58078e.png",
+    "static/media/category-report.png": "/personal-website/static/media/category-report.2c51d970e9ba0e3da083.png",
+    "static/media/create-new-expense.png": "/personal-website/static/media/create-new-expense.ab68653b2793a7612ade.png",
+    "static/media/mongoose.png": "/personal-website/static/media/mongoose.998152e4bc5fdd366c2c.png",
+    "static/media/search-expense.png": "/personal-website/static/media/search-expense.aa59ab8faf6b04441b77.png",
+    "static/media/react.png": "/personal-website/static/media/react.6ab7e2e9a04e78b4e9c6.png",
+    "static/media/cloudinary.png": "/personal-website/static/media/cloudinary.8f54e4a273134611aea8.png",
+    "static/media/zalo.png": "/personal-website/static/media/zalo.0bdcaa0cc3d353fe47af.png",
+    "static/media/javascript.png": "/personal-website/static/media/javascript.621f6061172a58343b60.png",
+    "static/media/main.svg": "/personal-website/static/media/main.d7a3a436ffd0b1f0b6a93826eb7614ed.svg",
+    "static/media/mongodb.png": "/personal-website/static/media/mongodb.abda074030b9b0f90a42.png",
+    "static/media/logo.svg": "/personal-website/static/media/logo.4df0f27a7dfe509bd4bb14df4223b7dd.svg",
+    "index.html": "/personal-website/index.html",
+    "main.619857ba.css.map": "/personal-website/static/css/main.619857ba.css.map",
+    "main.51a73bcd.js.map": "/personal-website/static/js/main.51a73bcd.js.map",
+    "787.5809834d.chunk.js.map": "/personal-website/static/js/787.5809834d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.619857ba.css",
+    "static/js/main.51a73bcd.js"
+  ]
+}
