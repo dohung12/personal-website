@@ -25,7 +25,7 @@ export interface ProjectProps {
 
 const projects: ProjectProps[] = [
   {
-    name: "Where's My Money?",
+    name: 'Expense Tracking',
     images: [
       WMM_dashboard,
       WMM_categoryReport,
@@ -33,23 +33,39 @@ const projects: ProjectProps[] = [
       WWW_monthlyReport,
       WWW_searchExpense,
     ],
-    desc: 'A MERN app to record spending history.',
-    stack: ['react', 'node', 'express', 'mongoose', 'passportjs', 'mongodb'],
+    desc: 'A MERN app to record spending history, and get reports based on different categories.',
+    stack: [
+      'react',
+      'node',
+      'express',
+      'mongoose',
+      'passportjs',
+      'mongodb',
+      'cloudinary',
+    ],
     livePreview: 'https://wmm-276.herokuapp.com/landing',
     viewCode: 'https://github.com/dohung12/mern-expenses-tracker',
   },
   {
     name: 'Odin Book',
     images: [OD_dashboard, OD_landing, OD_post, OD_searchPerson, OD_searchPost],
-    desc: "A MERN Application, call Odin Book. Where user can making new friends, create posts and comment on friends' posts.",
-    stack: ['react', 'node', 'express', 'mongoose', 'passportjs', 'mongodb'],
+    desc: 'A MERN app where users can make new friends, create posts and interact with each other.',
+    stack: [
+      'react',
+      'node',
+      'express',
+      'mongoose',
+      'passportjs',
+      'mongodb',
+      'cloudinary',
+    ],
     livePreview: 'https://odin-book.herokuapp.com/landing',
     viewCode: 'https://github.com/dohung12/odin-book',
   },
   {
     name: "Where's Waldo? ",
     images: [WIW_dashboard, WIW_lvl1, WIW_lvl2],
-    desc: 'Players are challenged to find a character named Wally, hidden in the a large picture that contains numerous characters.',
+    desc: 'A game in which players are challenged to spot Wally, hidden in a large picture that contains numerous characters.',
     stack: ['react', 'typescript', 'firebase'],
     livePreview: 'https://dohung12.github.io/Where-is-waldo/',
     viewCode: 'https://github.com/dohung12/Where-is-waldo',
